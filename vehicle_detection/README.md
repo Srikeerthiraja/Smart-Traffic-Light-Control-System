@@ -1,12 +1,12 @@
-# Vehicle Detection Module 🚗
+# Vehicle Detection Module
 
-### 📘 Overview
+###  Overview
 This module is responsible for detecting and counting vehicles in real-time from a live camera feed using **OpenCV-Python**.  
 The detection results are sent to the main control logic, which adjusts the traffic signal duration dynamically based on vehicle density.
 
 ---
 
-### ⚙️ Workflow
+###  Workflow
 1. Capture video frames from a webcam or traffic camera feed.
 2. Convert frames to grayscale and apply background subtraction.
 3. Use contour detection to identify moving vehicles.
@@ -15,14 +15,14 @@ The detection results are sent to the main control logic, which adjusts the traf
 
 ---
 
-### 🧰 Tech Stack
+###  Tech Stack
 - **Language:** Python  
 - **Libraries:** OpenCV, NumPy, time  
 - **Output:** Vehicle count per lane (int)  
 
 ---
 
-### 🧩 Example (Simplified Pseudocode)
+###  Example (Simplified Pseudocode)
 ```python
 import cv2
 import numpy as np
