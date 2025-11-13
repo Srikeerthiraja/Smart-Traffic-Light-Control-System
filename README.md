@@ -61,8 +61,6 @@ This project aims to **make traffic control adaptive** by analyzing real-time ca
 
 ---
 
----
-
 ###  License
 This project is for educational and demonstration purposes only.  
 Developed as part of an academic initiative under the **Vellore Institute of Technology, Andhra Pradesh**.
